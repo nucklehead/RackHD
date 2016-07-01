@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/on-core" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/on-dhcp-proxy" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/on-http" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/on-http/swagger-codegen" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/on-imagebuilder" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/on-statsd" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/on-syslog" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/on-taskgraph" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/on-tasks" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/on-tftp" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/on-tools" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/on-wss" vcs="Git" />
+  </component>
+</project>
