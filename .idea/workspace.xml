@@ -2,12 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c159fdc-fb0f-4e43-8de7-2416bef1e125" name="Default" comment="Merge branch 'master' of https://github.com/RackHD/on-taskgraph&#10;&#10;Conflicts:&#10;&#9;lib/graphs/install-esx-graph.js&#10;">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/on-core" afterPath="$PROJECT_DIR$/on-core" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/on-taskgraph/lib/graphs/brocade-switch-discovery-graph.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/on-taskgraph/lib/graphs/discovery-redfish-system-graph.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/on-taskgraph/lib/graphs/install-photon-graph.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/on-taskgraph/spec/lib/graphs/install-photon-graph-spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/on-dhcp-proxy" afterPath="$PROJECT_DIR$/on-dhcp-proxy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/on-http" afterPath="$PROJECT_DIR$/on-http" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/on-tasks" afterPath="$PROJECT_DIR$/on-tasks" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/on-imagebuilder" afterPath="$PROJECT_DIR$/on-imagebuilder" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/on-syslog" afterPath="$PROJECT_DIR$/on-syslog" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/on-taskgraph" afterPath="$PROJECT_DIR$/on-taskgraph" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/on-tftp" afterPath="$PROJECT_DIR$/on-tftp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/on-http/static/upnp/upnp-device-description.xml" afterPath="$PROJECT_DIR$/on-http/static/upnp/upnp-device-description.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/on-tasks/lib/jobs/validate-ssh.js" afterPath="$PROJECT_DIR$/on-tasks/lib/jobs/validate-ssh.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/on-taskgraph/README.md" afterPath="$PROJECT_DIR$/on-taskgraph/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/on-taskgraph/extra/make-deb.sh" afterPath="$PROJECT_DIR$/on-taskgraph/extra/make-deb.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/on-taskgraph/lib/graphs/boot-livecd-graph.js" afterPath="$PROJECT_DIR$/on-taskgraph/lib/graphs/boot-livecd-graph.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/on-taskgraph/lib/graphs/install-centos-graph.js" afterPath="$PROJECT_DIR$/on-taskgraph/lib/graphs/install-centos-graph.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/on-taskgraph/lib/graphs/install-rhel-graph.js" afterPath="$PROJECT_DIR$/on-taskgraph/lib/graphs/install-rhel-graph.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/on-taskgraph/lib/graphs/install-suse-graph.js" afterPath="$PROJECT_DIR$/on-taskgraph/lib/graphs/install-suse-graph.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/on-taskgraph/lib/graphs/pdu-discovery-graph.js" afterPath="$PROJECT_DIR$/on-taskgraph/lib/graphs/pdu-discovery-graph.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/on-taskgraph/spec/lib/graph-library-spec.js" afterPath="$PROJECT_DIR$/on-taskgraph/spec/lib/graph-library-spec.js" />
     </list>
     <ignored path="RackHD.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,7 +54,7 @@
       <file leaf-file-name="lookup.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/on-core/lib/models/lookup.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
+            <state relative-caret-position="1134">
               <caret line="63" column="38" selection-start-line="63" selection-start-column="38" selection-end-line="63" selection-end-column="38" />
               <folding />
             </state>
@@ -51,117 +64,9 @@
       <file leaf-file-name="model.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/on-core/lib/common/model.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
+            <state relative-caret-position="720">
               <caret line="40" column="31" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="31" />
-              <folding>
-                <marker date="1469815764392" expanded="true" signature="133:285" ph="[...]" />
-                <marker date="1469815764392" expanded="true" signature="508:567" ph="{...}" />
-                <marker date="1469815764392" expanded="true" signature="630:876" ph="{...}" />
-                <marker date="1469815764392" expanded="true" signature="657:735" ph="{&quot;type&quot;: 'array'...}" />
-                <marker date="1469815764392" expanded="true" signature="761:866" ph="{&quot;type&quot;: 'json'...}" />
-                <marker date="1469815764392" expanded="true" signature="931:1167" ph="{...}" />
-                <marker date="1469815764392" expanded="true" signature="1215:1413" ph="{...}" />
-                <marker date="1469815764392" expanded="true" signature="1297:1336" ph="{...}" />
-                <marker date="1469815764392" expanded="true" signature="1359:1401" ph="{...}" />
-                <marker date="1469815764392" expanded="true" signature="1460:1658" ph="{...}" />
-                <marker date="1469815764392" expanded="true" signature="1542:1581" ph="{...}" />
-                <marker date="1469815764392" expanded="true" signature="1604:1646" ph="{...}" />
-                <marker date="1469815764392" expanded="true" signature="1707:2024" ph="{...}" />
-                <marker date="1469815764392" expanded="true" signature="1796:1875" ph="{...}" />
-                <marker date="1469815764392" expanded="true" signature="1908:1947" ph="{...}" />
-                <marker date="1469815764392" expanded="true" signature="1970:2012" ph="{...}" />
-                <marker date="1469815764392" expanded="true" signature="2086:2358" ph="{...}" />
-                <marker date="1469815764392" expanded="true" signature="2123:2254" ph="{...}" />
-                <marker date="1469815764392" expanded="true" signature="2167:2240" ph="{...}" />
-                <marker date="1469815764392" expanded="true" signature="2289:2348" ph="{...}" />
-                <marker date="1469815764392" expanded="true" signature="2420:2683" ph="{...}" />
-                <marker date="1469815764392" expanded="true" signature="2457:2588" ph="{...}" />
-                <marker date="1469815764392" expanded="true" signature="2501:2574" ph="{...}" />
-                <marker date="1469815764392" expanded="true" signature="2614:2673" ph="{...}" />
-                <marker date="1469815764392" expanded="true" signature="2731:3318" ph="{...}" />
-                <marker date="1469815764392" expanded="true" signature="2888:2968" ph="{...}" />
-                <marker date="1469815764392" expanded="true" signature="3002:3306" ph="{...}" />
-                <marker date="1469815764392" expanded="true" signature="3052:3109" ph="{...}" />
-                <marker date="1469815764392" expanded="true" signature="3115:3292" ph="{...}" />
-                <marker date="1469815764392" expanded="true" signature="3137:3242" ph="//..." />
-                <marker date="1469815764392" expanded="true" signature="3360:3471" ph="{...}" />
-                <marker date="1469815764392" expanded="true" signature="3526:3726" ph="{...}" />
-                <marker date="1469815764392" expanded="true" signature="3613:3714" ph="{...}" />
-                <marker date="1469815764392" expanded="true" signature="3776:3865" ph="{...}" />
-                <marker date="1469815764392" expanded="true" signature="3929:5192" ph="{...}" />
-                <marker date="1469815764392" expanded="true" signature="4136:4353" ph="{...}" />
-                <marker date="1469815764392" expanded="true" signature="4450:5180" ph="{...}" />
-                <marker date="1469815764392" expanded="true" signature="4550:4747" ph="[...]" />
-                <marker date="1469815764392" expanded="true" signature="4820:5041" ph="{...}" />
-                <marker date="1469815764392" expanded="true" signature="4921:5021" ph="{...}" />
-                <marker date="1469815764392" expanded="true" signature="5084:5164" ph="{...}" />
-                <marker date="1469815764392" expanded="true" signature="5239:5644" ph="{...}" />
-                <marker date="1469815764392" expanded="true" signature="5332:5632" ph="{...}" />
-                <marker date="1469815764392" expanded="true" signature="5380:5457" ph="{...}" />
-                <marker date="1469815764392" expanded="true" signature="5685:5756" ph="{...}" />
-                <marker date="1469815764392" expanded="true" signature="5798:7350" ph="{...}" />
-                <marker date="1469815764392" expanded="true" signature="6052:6097" ph="{...}" />
-                <marker date="1469815764392" expanded="true" signature="6269:6676" ph="{...}" />
-                <marker date="1469815764392" expanded="true" signature="6312:6464" ph="{...}" />
-                <marker date="1469815764392" expanded="true" signature="6498:6589" ph="{...}" />
-                <marker date="1469815764392" expanded="true" signature="6788:7036" ph="{...}" />
-                <marker date="1469815764392" expanded="true" signature="6824:6881" ph="{...}" />
-                <marker date="1469815764392" expanded="true" signature="7250:7338" ph="{...}" />
-                <marker date="1469815764392" expanded="true" signature="7408:7985" ph="{...}" />
-                <marker date="1469815764392" expanded="true" signature="7486:7720" ph="{...}" />
-                <marker date="1469815764392" expanded="true" signature="7877:7973" ph="{...}" />
-                <marker date="1469815764392" expanded="true" signature="8025:8095" ph="{...}" />
-                <marker date="1469815764392" expanded="true" signature="8106:8362" ph="/** Look up by identifier - either the &quot;id&quot; or in the identifiers array. ...*/" />
-                <marker date="1469815764392" expanded="true" signature="8411:9452" ph="{...}" />
-                <marker date="1469815764392" expanded="true" signature="8630:9440" ph="{...}" />
-                <marker date="1469815764392" expanded="true" signature="8748:8819" ph="{...}" />
-                <marker date="1469815764392" expanded="true" signature="8838:8992" ph="//..." />
-                <marker date="1469815764392" expanded="true" signature="9021:9102" ph="{...}" />
-                <marker date="1469815764392" expanded="true" signature="9108:9426" ph="{...}" />
-                <marker date="1469815764392" expanded="true" signature="9210:9406" ph="{...}" />
-                <marker date="1469815764392" expanded="true" signature="9245:9348" ph="{...}" />
-                <marker date="1469815764392" expanded="true" signature="9462:9780" ph="/** Look up by identifier - either the &quot;id&quot; or in the identifiers array. ...*/" />
-                <marker date="1469815764392" expanded="true" signature="9829:10433" ph="{...}" />
-                <marker date="1469815764392" expanded="true" signature="9937:10421" ph="{...}" />
-                <marker date="1469815764392" expanded="true" signature="9968:10375" ph="{...}" />
-                <marker date="1469815764392" expanded="true" signature="10222:10355" ph="{...}" />
-                <marker date="1469815764392" expanded="true" signature="10443:10807" ph="/** Look up and update values by identifier - either the &quot;id&quot; or in the identifiers array. ...*/" />
-                <marker date="1469815764392" expanded="true" signature="10866:11243" ph="{...}" />
-                <marker date="1469815764392" expanded="true" signature="10991:11231" ph="{...}" />
-                <marker date="1469815764392" expanded="true" signature="11145:11211" ph="{...}" />
-                <marker date="1469815764392" expanded="true" signature="11253:11572" ph="/** Look up and remove objects by identifier - either the &quot;id&quot; or in the identifiers array. ...*/" />
-                <marker date="1469815764392" expanded="true" signature="11624:11969" ph="{...}" />
-                <marker date="1469815764392" expanded="true" signature="11749:11957" ph="{...}" />
-                <marker date="1469815764392" expanded="true" signature="11871:11937" ph="{...}" />
-                <marker date="1469815764392" expanded="true" signature="11979:12321" ph="/** Using an identifier, find and update, or create a new instance if none exists ...*/" />
-                <marker date="1469815764392" expanded="true" signature="12386:12677" ph="{...}" />
-                <marker date="1469815764392" expanded="true" signature="12494:12665" ph="{...}" />
-                <marker date="1469815764392" expanded="true" signature="12524:12578" ph="{...}" />
-                <marker date="1469815764392" expanded="true" signature="12584:12651" ph="{...}" />
-                <marker date="1469815764392" expanded="true" signature="12687:13056" ph="/** Extend a criteria object with additional waterline query paramters to ...*/" />
-                <marker date="1469815764392" expanded="true" signature="13101:13304" ph="{...}" />
-                <marker date="1469815764392" expanded="true" signature="13242:13292" ph="{...}" />
-                <marker date="1469815764392" expanded="true" signature="13314:13714" ph="/** Extend a criteria object with additional waterline query paramters to ...*/" />
-                <marker date="1469815764392" expanded="true" signature="13777:13910" ph="{...}" />
-                <marker date="1469815764392" expanded="true" signature="13921:14049" ph="/** Find a single document via criteria and resolve it, otherwise ...*/" />
-                <marker date="1469815764392" expanded="true" signature="14087:14676" ph="{...}" />
-                <marker date="1469815764392" expanded="true" signature="14197:14664" ph="{...}" />
-                <marker date="1469815764392" expanded="true" signature="14228:14618" ph="{...}" />
-                <marker date="1469815764392" expanded="true" signature="14474:14598" ph="{...}" />
-                <marker date="1469815764392" expanded="true" signature="14687:14808" ph="/** Find a single document by ID and resolve it, otherwise reject ...*/" />
-                <marker date="1469815764392" expanded="true" signature="14844:14900" ph="{...}" />
-                <marker date="1469815764392" expanded="true" signature="14911:15040" ph="/** Update a single document by criteria and resolve it, otherwise ...*/" />
-                <marker date="1469815764392" expanded="true" signature="15090:15359" ph="{...}" />
-                <marker date="1469815764392" expanded="true" signature="15187:15347" ph="{...}" />
-                <marker date="1469815764392" expanded="true" signature="15370:15493" ph="/** Update a single document by ID and resolve it, otherwise ...*/" />
-                <marker date="1469815764392" expanded="true" signature="15541:15609" ph="{...}" />
-                <marker date="1469815764392" expanded="true" signature="15620:15750" ph="/** Destroy a single document by criteria and resolve it, otherwies ...*/" />
-                <marker date="1469815764392" expanded="true" signature="15791:16051" ph="{...}" />
-                <marker date="1469815764392" expanded="true" signature="15888:16039" ph="{...}" />
-                <marker date="1469815764392" expanded="true" signature="15963:16023" ph="{...}" />
-                <marker date="1469815764392" expanded="true" signature="16062:16186" ph="/** Destroy a single document by ID and resolve it, otherwise ...*/" />
-                <marker date="1469815764392" expanded="true" signature="16225:16284" ph="{...}" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -189,8 +94,8 @@
       <file leaf-file-name="taskgraph.log" pinned="false" current-in-tab="false">
         <entry file="file:///tmp/taskgraph.log">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42282">
-              <caret line="6589" column="0" selection-start-line="6589" selection-start-column="0" selection-end-line="6589" selection-end-column="0" />
+            <state relative-caret-position="30114">
+              <caret line="1673" column="0" selection-start-line="1673" selection-start-column="0" selection-end-line="1673" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -199,18 +104,38 @@
       <file leaf-file-name="validate-ssh.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/on-tasks/lib/jobs/validate-ssh.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="422">
-              <caret line="64" column="32" selection-start-line="64" selection-start-column="32" selection-end-line="64" selection-end-column="32" />
+            <state relative-caret-position="1080">
+              <caret line="60" column="32" selection-start-line="60" selection-start-column="32" selection-end-line="60" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gruntfile.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/on-taskgraph/Gruntfile.js">
+      <file leaf-file-name="Gruntfile.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/on-syslog/Gruntfile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+            <state relative-caret-position="378">
+              <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="link_install_locally.bash" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts/link_install_locally.bash">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="227">
+              <caret line="36" column="38" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="centos-ks" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/on-http/data/templates/centos-ks">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="692">
+              <caret line="233" column="4" selection-start-line="233" selection-start-column="4" selection-end-line="233" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -220,7 +145,7 @@
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/on-taskgraph" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/on-http" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -235,6 +160,8 @@
         <option value="$PROJECT_DIR$/on-tasks/lib/jobs/validate-ssh.js" />
         <option value="/tmp/taskgraph.log" />
         <option value="$PROJECT_DIR$/on-core/lib/models/lookup.js" />
+        <option value="$PROJECT_DIR$/on-imagebuilder/hosts" />
+        <option value="$PROJECT_DIR$/on-http/data/templates/centos-ks" />
       </list>
     </option>
   </component>
@@ -305,7 +232,75 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="on-taskgraph" />
+              <option name="myItemId" value="scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RackHD" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RackHD" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="on-syslog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RackHD" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RackHD" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="on-http" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RackHD" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RackHD" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="on-http" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RackHD" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RackHD" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="on-http" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -318,7 +313,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="nodejs.mocha.mocha_node_package_dir" value="$PROJECT_DIR$/on-http/node_modules/mocha" />
-    <property name="settings.editor.selected.configurable" value="terminal" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.smartKeys" />
     <property name="js-jscs-nodeInterpreter" value="/usr/bin/node" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="nodejs_interpreter_path" value="/usr/bin/node" />
@@ -331,6 +326,17 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="BashConfigurationType" factoryName="Bash">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="ChromiumRemoteDebugType" factoryName="Chromium Remote">
       <method />
     </configuration>
@@ -492,7 +498,8 @@
       <workItem from="1469568741806" duration="54000" />
       <workItem from="1469569843350" duration="91000" />
       <workItem from="1469626735103" duration="17797000" />
-      <workItem from="1469802644802" duration="5077000" />
+      <workItem from="1469802644802" duration="5996000" />
+      <workItem from="1469817832501" duration="2781000" />
     </task>
     <task id="LOCAL-00001" summary="added post lookups + dhcp to latest esx-ks">
       <created>1466100312749</created>
@@ -508,27 +515,48 @@
       <option name="project" value="LOCAL" />
       <updated>1469816596143</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Committing Pycharm file">
+      <created>1469817052008</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1469817052008</updated>
+    </task>
+    <task id="LOCAL-00004" summary="merged with rackhd master and fixed centos-ks">
+      <created>1469820606949</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1469820606949</updated>
+    </task>
+    <task id="LOCAL-00005" summary="fixed cnetos-ks">
+      <created>1469820772754</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1469820772754</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64028000" />
+    <option name="totallyTimeSpent" value="67728000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="243" width="1920" height="1138" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2090574" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298279" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16539197" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16539197" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -551,77 +579,16 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added post lookups + dhcp to latest esx-ks" />
     <MESSAGE value="added tasks to check if node is a vm and option to keep microkernel running if it is not a vm" />
-    <option name="LAST_COMMIT_MESSAGE" value="added tasks to check if node is a vm and option to keep microkernel running if it is not a vm" />
+    <MESSAGE value="Committing Pycharm file" />
+    <MESSAGE value="merged with rackhd master and fixed centos-ks" />
+    <MESSAGE value="fixed cnetos-ks" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed cnetos-ks" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/on-http/data/templates/esx-ks">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1908">
-          <caret line="106" column="41" selection-start-line="106" selection-start-column="41" selection-end-line="106" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/on-http/data/templates/esx.rackhdcallback">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="80" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/on-tasks/lib/task-data/tasks/validate-ssh.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/on-taskgraph/lib/graphs/install-esx-graph.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/on-tasks/lib/task-data/tasks/install-esx.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="28" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/on-tasks/lib/jobs/install-os.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6588">
-          <caret line="366" column="15" selection-start-line="366" selection-start-column="15" selection-end-line="366" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/on-tasks/lib/task-data/base-tasks/validate-ssh.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/on-tasks/lib/jobs/validate-ssh.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="936">
-          <caret line="52" column="48" selection-start-line="52" selection-start-column="36" selection-end-line="52" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/on-http/data/templates/centos-ks">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/on-http/data/templates/esx-ks">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1800">
@@ -644,13 +611,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/on-tasks/lib/task-data/base-tasks/install-os.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/on-http/data/templates/centos-ks">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -717,7 +677,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="558">
           <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -760,7 +719,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -810,7 +768,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -818,7 +775,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1872">
           <caret line="104" column="8" selection-start-line="104" selection-start-column="8" selection-end-line="104" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -826,14 +782,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="918">
           <caret line="51" column="33" selection-start-line="51" selection-start-column="33" selection-end-line="51" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file:///tmp/taskgraph.log">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42282">
-          <caret line="6589" column="0" selection-start-line="6589" selection-start-column="0" selection-end-line="6589" selection-end-column="0" />
+        <state relative-caret-position="30114">
+          <caret line="1673" column="0" selection-start-line="1673" selection-start-column="0" selection-end-line="1673" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -871,117 +826,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/on-core/lib/common/model.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
+        <state relative-caret-position="720">
           <caret line="40" column="31" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="31" />
-          <folding>
-            <marker date="1469815764392" expanded="true" signature="133:285" ph="[...]" />
-            <marker date="1469815764392" expanded="true" signature="508:567" ph="{...}" />
-            <marker date="1469815764392" expanded="true" signature="630:876" ph="{...}" />
-            <marker date="1469815764392" expanded="true" signature="657:735" ph="{&quot;type&quot;: 'array'...}" />
-            <marker date="1469815764392" expanded="true" signature="761:866" ph="{&quot;type&quot;: 'json'...}" />
-            <marker date="1469815764392" expanded="true" signature="931:1167" ph="{...}" />
-            <marker date="1469815764392" expanded="true" signature="1215:1413" ph="{...}" />
-            <marker date="1469815764392" expanded="true" signature="1297:1336" ph="{...}" />
-            <marker date="1469815764392" expanded="true" signature="1359:1401" ph="{...}" />
-            <marker date="1469815764392" expanded="true" signature="1460:1658" ph="{...}" />
-            <marker date="1469815764392" expanded="true" signature="1542:1581" ph="{...}" />
-            <marker date="1469815764392" expanded="true" signature="1604:1646" ph="{...}" />
-            <marker date="1469815764392" expanded="true" signature="1707:2024" ph="{...}" />
-            <marker date="1469815764392" expanded="true" signature="1796:1875" ph="{...}" />
-            <marker date="1469815764392" expanded="true" signature="1908:1947" ph="{...}" />
-            <marker date="1469815764392" expanded="true" signature="1970:2012" ph="{...}" />
-            <marker date="1469815764392" expanded="true" signature="2086:2358" ph="{...}" />
-            <marker date="1469815764392" expanded="true" signature="2123:2254" ph="{...}" />
-            <marker date="1469815764392" expanded="true" signature="2167:2240" ph="{...}" />
-            <marker date="1469815764392" expanded="true" signature="2289:2348" ph="{...}" />
-            <marker date="1469815764392" expanded="true" signature="2420:2683" ph="{...}" />
-            <marker date="1469815764392" expanded="true" signature="2457:2588" ph="{...}" />
-            <marker date="1469815764392" expanded="true" signature="2501:2574" ph="{...}" />
-            <marker date="1469815764392" expanded="true" signature="2614:2673" ph="{...}" />
-            <marker date="1469815764392" expanded="true" signature="2731:3318" ph="{...}" />
-            <marker date="1469815764392" expanded="true" signature="2888:2968" ph="{...}" />
-            <marker date="1469815764392" expanded="true" signature="3002:3306" ph="{...}" />
-            <marker date="1469815764392" expanded="true" signature="3052:3109" ph="{...}" />
-            <marker date="1469815764392" expanded="true" signature="3115:3292" ph="{...}" />
-            <marker date="1469815764392" expanded="true" signature="3137:3242" ph="//..." />
-            <marker date="1469815764392" expanded="true" signature="3360:3471" ph="{...}" />
-            <marker date="1469815764392" expanded="true" signature="3526:3726" ph="{...}" />
-            <marker date="1469815764392" expanded="true" signature="3613:3714" ph="{...}" />
-            <marker date="1469815764392" expanded="true" signature="3776:3865" ph="{...}" />
-            <marker date="1469815764392" expanded="true" signature="3929:5192" ph="{...}" />
-            <marker date="1469815764392" expanded="true" signature="4136:4353" ph="{...}" />
-            <marker date="1469815764392" expanded="true" signature="4450:5180" ph="{...}" />
-            <marker date="1469815764392" expanded="true" signature="4550:4747" ph="[...]" />
-            <marker date="1469815764392" expanded="true" signature="4820:5041" ph="{...}" />
-            <marker date="1469815764392" expanded="true" signature="4921:5021" ph="{...}" />
-            <marker date="1469815764392" expanded="true" signature="5084:5164" ph="{...}" />
-            <marker date="1469815764392" expanded="true" signature="5239:5644" ph="{...}" />
-            <marker date="1469815764392" expanded="true" signature="5332:5632" ph="{...}" />
-            <marker date="1469815764392" expanded="true" signature="5380:5457" ph="{...}" />
-            <marker date="1469815764392" expanded="true" signature="5685:5756" ph="{...}" />
-            <marker date="1469815764392" expanded="true" signature="5798:7350" ph="{...}" />
-            <marker date="1469815764392" expanded="true" signature="6052:6097" ph="{...}" />
-            <marker date="1469815764392" expanded="true" signature="6269:6676" ph="{...}" />
-            <marker date="1469815764392" expanded="true" signature="6312:6464" ph="{...}" />
-            <marker date="1469815764392" expanded="true" signature="6498:6589" ph="{...}" />
-            <marker date="1469815764392" expanded="true" signature="6788:7036" ph="{...}" />
-            <marker date="1469815764392" expanded="true" signature="6824:6881" ph="{...}" />
-            <marker date="1469815764392" expanded="true" signature="7250:7338" ph="{...}" />
-            <marker date="1469815764392" expanded="true" signature="7408:7985" ph="{...}" />
-            <marker date="1469815764392" expanded="true" signature="7486:7720" ph="{...}" />
-            <marker date="1469815764392" expanded="true" signature="7877:7973" ph="{...}" />
-            <marker date="1469815764392" expanded="true" signature="8025:8095" ph="{...}" />
-            <marker date="1469815764392" expanded="true" signature="8106:8362" ph="/** Look up by identifier - either the &quot;id&quot; or in the identifiers array. ...*/" />
-            <marker date="1469815764392" expanded="true" signature="8411:9452" ph="{...}" />
-            <marker date="1469815764392" expanded="true" signature="8630:9440" ph="{...}" />
-            <marker date="1469815764392" expanded="true" signature="8748:8819" ph="{...}" />
-            <marker date="1469815764392" expanded="true" signature="8838:8992" ph="//..." />
-            <marker date="1469815764392" expanded="true" signature="9021:9102" ph="{...}" />
-            <marker date="1469815764392" expanded="true" signature="9108:9426" ph="{...}" />
-            <marker date="1469815764392" expanded="true" signature="9210:9406" ph="{...}" />
-            <marker date="1469815764392" expanded="true" signature="9245:9348" ph="{...}" />
-            <marker date="1469815764392" expanded="true" signature="9462:9780" ph="/** Look up by identifier - either the &quot;id&quot; or in the identifiers array. ...*/" />
-            <marker date="1469815764392" expanded="true" signature="9829:10433" ph="{...}" />
-            <marker date="1469815764392" expanded="true" signature="9937:10421" ph="{...}" />
-            <marker date="1469815764392" expanded="true" signature="9968:10375" ph="{...}" />
-            <marker date="1469815764392" expanded="true" signature="10222:10355" ph="{...}" />
-            <marker date="1469815764392" expanded="true" signature="10443:10807" ph="/** Look up and update values by identifier - either the &quot;id&quot; or in the identifiers array. ...*/" />
-            <marker date="1469815764392" expanded="true" signature="10866:11243" ph="{...}" />
-            <marker date="1469815764392" expanded="true" signature="10991:11231" ph="{...}" />
-            <marker date="1469815764392" expanded="true" signature="11145:11211" ph="{...}" />
-            <marker date="1469815764392" expanded="true" signature="11253:11572" ph="/** Look up and remove objects by identifier - either the &quot;id&quot; or in the identifiers array. ...*/" />
-            <marker date="1469815764392" expanded="true" signature="11624:11969" ph="{...}" />
-            <marker date="1469815764392" expanded="true" signature="11749:11957" ph="{...}" />
-            <marker date="1469815764392" expanded="true" signature="11871:11937" ph="{...}" />
-            <marker date="1469815764392" expanded="true" signature="11979:12321" ph="/** Using an identifier, find and update, or create a new instance if none exists ...*/" />
-            <marker date="1469815764392" expanded="true" signature="12386:12677" ph="{...}" />
-            <marker date="1469815764392" expanded="true" signature="12494:12665" ph="{...}" />
-            <marker date="1469815764392" expanded="true" signature="12524:12578" ph="{...}" />
-            <marker date="1469815764392" expanded="true" signature="12584:12651" ph="{...}" />
-            <marker date="1469815764392" expanded="true" signature="12687:13056" ph="/** Extend a criteria object with additional waterline query paramters to ...*/" />
-            <marker date="1469815764392" expanded="true" signature="13101:13304" ph="{...}" />
-            <marker date="1469815764392" expanded="true" signature="13242:13292" ph="{...}" />
-            <marker date="1469815764392" expanded="true" signature="13314:13714" ph="/** Extend a criteria object with additional waterline query paramters to ...*/" />
-            <marker date="1469815764392" expanded="true" signature="13777:13910" ph="{...}" />
-            <marker date="1469815764392" expanded="true" signature="13921:14049" ph="/** Find a single document via criteria and resolve it, otherwise ...*/" />
-            <marker date="1469815764392" expanded="true" signature="14087:14676" ph="{...}" />
-            <marker date="1469815764392" expanded="true" signature="14197:14664" ph="{...}" />
-            <marker date="1469815764392" expanded="true" signature="14228:14618" ph="{...}" />
-            <marker date="1469815764392" expanded="true" signature="14474:14598" ph="{...}" />
-            <marker date="1469815764392" expanded="true" signature="14687:14808" ph="/** Find a single document by ID and resolve it, otherwise reject ...*/" />
-            <marker date="1469815764392" expanded="true" signature="14844:14900" ph="{...}" />
-            <marker date="1469815764392" expanded="true" signature="14911:15040" ph="/** Update a single document by criteria and resolve it, otherwise ...*/" />
-            <marker date="1469815764392" expanded="true" signature="15090:15359" ph="{...}" />
-            <marker date="1469815764392" expanded="true" signature="15187:15347" ph="{...}" />
-            <marker date="1469815764392" expanded="true" signature="15370:15493" ph="/** Update a single document by ID and resolve it, otherwise ...*/" />
-            <marker date="1469815764392" expanded="true" signature="15541:15609" ph="{...}" />
-            <marker date="1469815764392" expanded="true" signature="15620:15750" ph="/** Destroy a single document by criteria and resolve it, otherwies ...*/" />
-            <marker date="1469815764392" expanded="true" signature="15791:16051" ph="{...}" />
-            <marker date="1469815764392" expanded="true" signature="15888:16039" ph="{...}" />
-            <marker date="1469815764392" expanded="true" signature="15963:16023" ph="{...}" />
-            <marker date="1469815764392" expanded="true" signature="16062:16186" ph="/** Destroy a single document by ID and resolve it, otherwise ...*/" />
-            <marker date="1469815764392" expanded="true" signature="16225:16284" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -989,7 +836,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="372">
           <caret line="262" column="49" selection-start-line="262" selection-start-column="40" selection-end-line="262" selection-end-column="49" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -997,7 +843,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="220" column="8" selection-start-line="220" selection-start-column="8" selection-end-line="220" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1005,7 +850,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="552" column="29" selection-start-line="552" selection-start-column="29" selection-end-line="552" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1013,30 +857,102 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="282">
           <caret line="751" column="0" selection-start-line="751" selection-start-column="0" selection-end-line="751" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/on-core/lib/models/lookup.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
+        <state relative-caret-position="1134">
           <caret line="63" column="38" selection-start-line="63" selection-start-column="38" selection-end-line="63" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/on-tasks/lib/jobs/validate-ssh.js">
+    <entry file="file://$PROJECT_DIR$/on-taskgraph/lib/graphs/install-centos-graph.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="64" column="32" selection-start-line="64" selection-start-column="32" selection-end-line="64" selection-end-column="32" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/on-taskgraph/Gruntfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+        <state relative-caret-position="144">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/on-tftp/Gruntfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/on-statsd/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/on-imagebuilder/hosts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/on-http/Gruntfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/on-dhcp-proxy/gruntfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/on-tasks/lib/jobs/validate-ssh.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="60" column="32" selection-start-line="60" selection-start-column="32" selection-end-line="60" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/on-syslog/Gruntfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/clean_all.bash">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/link_install_locally.bash">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="36" column="38" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/on-http/data/templates/centos-ks">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="692">
+          <caret line="233" column="4" selection-start-line="233" selection-start-column="4" selection-end-line="233" selection-end-column="4" />
           <folding />
         </state>
       </provider>
