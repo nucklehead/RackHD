@@ -13,6 +13,7 @@
     <mapping directory="$PROJECT_DIR$/on-tasks" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/on-tftp" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/on-tools" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/on-web-ui" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/on-wss" vcs="Git" />
   </component>
 </project>
